@@ -15,17 +15,25 @@
         
         <img class="logo" src="images/logo.svg" aria-label="Sunnyside logo" alt="Sunnyside">
 
-        <nav class="nav-bar">
+        <nav class="nav-bar toggle">
           <a href="#about">About</a>
           <a href="#services">Services</a> 
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
         
-        <button class="mobile-menu"><img src="images/icon-hamburger.svg" aria-label="Mobile Menu" alt="Mobile Menu">
+        <button class="mobile-menu" onclick="toggleMenu()"><img src="images/icon-hamburger.svg" aria-label="Mobile Menu" alt="Mobile Menu">
         </button>
 
       </header>
+
+      <div class="hidden-menu">
+        <a href="#about"><button class="hidden-button">About</button></a>
+        <a href="#services"><button class="hidden-button">Services</button></a> 
+        <a href="#projects"><button class="hidden-button">Projects</button></a>
+        <a href="#contact"><button class="hidden-contact subtitle">Contact</button></a>
+      </div>
+
       <h1 class="title subtitle">WE ARE CREATIVES</h1>
       <img class="arrow-down" src="images\icon-arrow-down.svg" alt="An arrow pointing down">
     </div>
