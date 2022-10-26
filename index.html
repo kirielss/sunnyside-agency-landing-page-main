@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <title>Sunnyside agency landing page</title>
 </head>
 <body>
     <div class="head fruit grid-1">
@@ -15,7 +15,7 @@
         
         <img class="logo" src="images/logo.svg" aria-label="Sunnyside logo" alt="Sunnyside">
 
-        <nav class="nav-bar toggle">
+        <nav class="nav-bar">
           <a href="#about">About</a>
           <a href="#services">Services</a> 
           <a href="#projects">Projects</a>
@@ -35,61 +35,72 @@
       </div>
 
       <h1 class="title subtitle">WE ARE CREATIVES</h1>
-      <img class="arrow-down" src="images\icon-arrow-down.svg" alt="An arrow pointing down">
+      <img class="arrow-down" src="images/icon-arrow-down.svg" alt="An arrow pointing down">
     </div>
 
     <div class="egg pic grid-2"></div>
 
-    <article class="text grid-3">
-      <h2 class="sec-title subtitle">Transform your brand</h2>
+    <article id="services" class="text grid-3">
+      <div class="text-box">
+        <h2 class="sec-title subtitle">Transform your brand</h2>
 
-      <p class="inside-text">We are a full-service creative agency specializing in helping brands grow fast. 
-        Engage your clients through compelling visuals that do most of the marketing for you.</p>
-      <a class="link subtitle">Learn more</a>    
+        <p class="inside-text">We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <a class="link subtitle yellow">Learn more</a>
+      </div>
     </article>
 
     <div class="cup pic grid-4"></div>
 
     <article class="text grid-5">
-      <h2 class="sec-title subtitle">Stand out to the right audience</h2>
+      <div class="text-box">
+        <h2 class="sec-title subtitle">Stand out to the right audience</h2>
 
-      <p class="inside-text">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-    
-      <a class="link subtitle">Learn more</a>
+        <p class="inside-text">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      
+        <a class="link subtitle pink">Learn more</a>
+      </div>
     </article>
 
-    <div class="cherry fruit text-fruit grid-6">
-      <h2 class="fruit-title subtitle">Graphic design</h2> 
-      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+    <div id="projects" class="cherry fruit text-fruit grid-6">
+      <div class="fruit-box">
+        <h2 class="fruit-title subtitle">Graphic design</h2> 
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
     </div>
 
     <div class="orange fruit text-fruit grid-7">
-      <h2 class="fruit-title subtitle">Photography</h2>
-      <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      <div class="fruit-box">
+        <h2 class="fruit-title subtitle">Photography</h2>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
     </div>
 
-    <div class="testimony grid-8">
+    <div id="about" class="testimony grid-8">
       <h4 class="clients-title"> Client testimonials</h4>
 
-      <div class="clients client-1">
-        <img class="client-pic" src="images/image-emily.jpg" aria-label="Picture of Emily R." alt="Emily Picture">
-        <p class="client-text">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-        <h4 class="name subtitle">Emily R.</h4>
-        <p class="sub-name">Marketing Director</p>
-      </div>
+      <div class="clients-box">
 
-      <div class="clients client-2">
-        <img class="client-pic" src="images/image-thomas.jpg" aria-label="Picture of Thomas S." alt="Thomas Picture">
-        <p class="client-text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-        <h4 class="name subtitle">Thomas S.</h4>
-        <p class="sub-name">Chief Operating Officer</p>
-      </div>
+        <div class="clients client-1">
+          <img class="client-pic" src="images/image-emily.jpg" aria-label="Picture of Emily R." alt="Emily Picture">
+          <p class="client-text">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <h4 class="name subtitle">Emily R.</h4>
+          <p class="sub-name">Marketing Director</p>
+        </div>
 
-      <div class="clients client-3">
-        <img class="client-pic" src="images/image-jennie.jpg" aria-label="Picture of Jennie F." alt="Jennie Picture">
-        <p class="client-text">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-        <h4 class="name subtitle">Jennie F.</h4>
-        <p class="sub-name">Business Owner</p>
+        <div class="clients client-2">
+          <img class="client-pic" src="images/image-thomas.jpg" aria-label="Picture of Thomas S." alt="Thomas Picture">
+          <p class="client-text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <h4 class="name subtitle">Thomas S.</h4>
+          <p class="sub-name">Chief Operating Officer</p>
+        </div>
+
+        <div class="clients client-3">
+          <img class="client-pic" src="images/image-jennie.jpg" aria-label="Picture of Jennie F." alt="Jennie Picture">
+          <p class="client-text">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <h4 class="name subtitle">Jennie F.</h4>
+          <p class="sub-name">Business Owner</p>
+        </div>
       </div>
     </div>
 
@@ -100,7 +111,7 @@
       <div class="sugar mosaico"></div>
     </div>
 
-    <div class="footer grid-10">
+    <div id="contact" class="footer grid-10">
       <img class="footer-logo" src="images/logo.svg" alt="logo">
 
       <nav class="footer-bar">
