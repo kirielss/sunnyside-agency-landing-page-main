@@ -14,7 +14,7 @@ Feel free to review the code, add a commentary or just to say something nice.
 
 ## Here's the preview:
 
-![Design preview for the Sunnyside agency landing page coding challenge](design\screenshot-desktop.png)
+![Design preview for the Sunnyside agency landing page coding challenge](design/screenshot-desktop.png)
 
 ## Thank you for stopping by!!!
 
